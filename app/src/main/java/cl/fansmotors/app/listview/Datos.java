@@ -11,11 +11,11 @@ public class Datos {
     protected String info;
     protected long id;
 
-    public Datos(Drawable foto, String nombre, String info, long id) {
+    public Datos(Drawable foto, String nombre, String info) {
         this.foto = foto;
         this.nombre = nombre;
         this.info = info;
-        this.id = id;
+        //this.id = id;
     }
 
     public Drawable getFoto() {
